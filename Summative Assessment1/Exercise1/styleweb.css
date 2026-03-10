@@ -1,0 +1,25 @@
+header h1, nav {
+    background-color: #dddddd;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+aside p, footer p {
+    background-color: #dddddd;
+    padding: 40px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav a {
+    color: #0000ee;
+    margin-right: 15px;
+    text-decoration: underline;
+}
+
+header, aside, footer {
+    margin-bottom: 20px;
+}
