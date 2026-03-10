@@ -1,0 +1,46 @@
+body {
+    background-color: #dddddd;
+    font-family: serif;
+    margin: 0;
+    text-align: center;
+}
+
+header h1 { font-size: 5rem; margin-bottom: 20px; }
+nav a { margin: 0 40px; text-decoration: underline; color: blue; }
+
+
+.intro {
+    max-width: 1000px;
+    margin: 4px auto;
+    padding: 20px;
+    text-align: left;
+    overflow: auto;
+}
+
+.float-img {
+    float: right;
+    width: 400px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 0;
+}
+
+.gallery img, .gallery video {
+    flex: 1 1 auto;
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+
+video {
+    outline: none;
+}
+
+p {
+    font-size: 21.1px;
+}
